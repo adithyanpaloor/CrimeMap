@@ -11,7 +11,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/folder1" element={<Folder/>} />
         <Route path="/folder2" element={<div>Folder 2 Content</div>} />
-        <Route path="/folder3" element={<div>Folder 3 Content</div>} />
+        <Route path="/folder3" element={<Storage/>} />
         <Route path="/folder4" element={<div>Folder 4 Content</div>} />
         <Route path="/folder5" element={<div>Folder 5 Content</div>} />
       </Routes>
