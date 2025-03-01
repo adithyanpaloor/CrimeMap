@@ -24,21 +24,15 @@ const CaseManagement = () => {
       <div className="grid grid-cols-2 gap-4 w-full h-3/4">
         {/* Evidence Storage Button */}
         <button 
-          className="h-full w-full bg-Black-700 text-white text-2xl font-bold rounded-lg hover:bg-green-300">
+          className="h-full w-full bg-red-200 text-white text-2xl font-bold rounded-lg hover:bg-green-300">
           Evidence Storage
         </button>
         
         {/* Case Board Button */}
-        <button
-  className="h-full w-full text-white text-2xl font-bold rounded-lg hover:bg-green-300"
-  style={{
-    backgroundImage: "url('/images/es.png')",
-    backgroundSize: "cover",
-    backgroundPosition: "center"
-  }}
->
-  Evidence Storage
-</button>
+        <button 
+          className="h-full w-full bg-red-200 text-white text-2xl font-bold rounded-lg hover:bg-green-300">
+          Evidence Storage
+        </button>
       </div>
     </div>
   );
